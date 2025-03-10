@@ -1,0 +1,6 @@
+-- Your SQL goes here
+CREATE TABLE threads (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  title VARCHAR NOT NULL,
+  body TEXT NOT NULL
+)
