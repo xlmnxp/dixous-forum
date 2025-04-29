@@ -23,6 +23,7 @@ pub fn ThreadsView(id: i32) -> Element {
                         }
                         p {
                             class: "bg-gray-200 p-2", 
+                            style: "white-space: pre-wrap; word-wrap: break-word;",
                             "{thread.body}"
                         }
                     }

@@ -5,7 +5,7 @@ use dioxus::prelude::*;
 pub fn Navbar() -> Element {
     rsx! {
         div {
-            class: "bg-gray-700 w-full h-full absolute",
+            class: "w-full h-full absolute",
             div {
                 class: "p-2 bg-gray-600 flex justify-between items-center  pl-10 pr-10",
                 id: "navbar",
